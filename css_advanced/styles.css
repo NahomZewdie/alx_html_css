@@ -1,0 +1,33 @@
+#firstbg {
+    background-image: url('Object.png');
+    background-repeat: no-repeat; /* Usually you don't want it to repeat */
+    background-position: center center; /* Center the image */
+  
+    /* Set the size of the image within its container */
+    background-size: cover; /* Or 'contain', or '100% 100%' */
+  
+    /* Define the dimensions of the div itself */
+    width: 100%;
+    min-height: 300px; /* Or a fixed height */
+    color: white; /* For text contrast */
+    text-align: center;
+    padding: 20px;
+  }
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+li{list-style:none;
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+li a{color:white;
+    text-decoration: none;
+    margin-right:100px;
+    font-family:'source sans pro', sans-serif;
+    font-weight: bold;
+    
+}
