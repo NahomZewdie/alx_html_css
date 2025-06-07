@@ -1,15 +1,11 @@
 #firstbg {
     background-image: url('Object.png');
-    background-repeat: no-repeat; /* Usually you don't want it to repeat */
-    background-position: center center; /* Center the image */
-  
-    /* Set the size of the image within its container */
-    background-size: cover; /* Or 'contain', or '100% 100%' */
-  
-    /* Define the dimensions of the div itself */
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover;
     width: 100%;
-    min-height: 300px; /* Or a fixed height */
-    color: white; /* For text contrast */
+    min-height: 300px; 
+    color: white; 
     text-align: center;
     padding: 20px;
   }
@@ -21,13 +17,217 @@
 }
 li{list-style:none;
     display: inline-block;
-    margin-top: 30px;
-    
+    margin-right: 50px; 
 }
 li a{color:white;
     text-decoration: none;
     margin-right:100px;
     font-family:'source sans pro', sans-serif;
     font-weight: bold;
+    font-size: 20px;
+}
+h1 {font-size: 120px;
+   font-weight: bold;
+   margin-top: 400px; 
+   }
+#sgl {
+      margin-top: -90px;
+      margin-bottom: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      align-items: center;
+      font-family:'source sans pro', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      gap:50px;
+      
+}
+#sgl span{
+      margin-left: 50px;
+}
+#Purplecontainer {
+    background-color: #C271FF;
+    border-radius:50px;
+    width: 250px;
+    height:30px;
+    align-items: center; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top:10px;
+}
+#Purplecontainer button{
+    all: unset;
+    font-family:'source sans pro', sans-serif;
+    font-weight:lighter;
+}
+#learn{
+    color:#C271FF;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family:'source sans pro', sans-serif;
+}
+#ftp {
+    color:white;
+    font-weight:lighter;
+    font-size: 50px;
+    font-family:'source sans pro', sans-serif;
+}
+#lftp{
+    margin-top:200px;
+}
+#enephilip{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+#squarecont{
+    border-radius:50%;
+}
+#purbg{
+    background-color: #C271FF;
+    display: flex;
+    padding:100px;
+    color:white;
+    font-family:'source sans pro', sans-serif;
+}
+#img{
+    margin-left: 200px;
+    margin-right: 50px;
+}
+#purbg blockquote{
+    font-size: larger;
+    margin-left: 50px;
+}
+#name, #p{
+    margin-left: 50px;
+}
+#bgw{
+    background-color: white;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+#mpt{ 
+    text-align: center;
+    padding-top: 20px;
+}
+#mpt span{
+    color:#C271FF;
+    font-weight: bold;
+}
+.para{
+    color:gray;
+    font-family:'source sans pro', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+}
+.phi{
+    display: flex;
+    color:#C271FF;  
+}
+.phi img{
+    width: 10%;
+    height:10%;
+    padding-right:20px;
+    padding-left:100px;
+}
+.stars-container { 
+    display: flex;
+    justify-content: center;
+    color:#C271FF;
+    vertical-align: center;
+}
+.gray{
+    color:#979797;
+    padding-right:50px;
+}
+#free{
+    color:#C271FF;
+}
+#blueblackbg{
+background-color:#071629;
+color:white;
+text-align: center;
+}
+#blueblackbg #lor{
+    display:flex;
+    background-color:#071629;
+    padding:100px;
+    color:white;
+    font-family:'source sans pro', sans-serif;
+    text-align: center;
+}
+#blueblackbg p{
+    text-align: center;
+    padding-inline: 80px;
+}
+#blueblackbg div #fm{
+    font-family:'source sans pro', sans-serif;
+    font-size: 40px;
+    padding-top: 40px;
+}
+#regcon{
+    background-color: #C271FF;
+    border-radius:50px;
+    width: 250px;
+    height:30px;
+    align-items: center; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top:10px;
     
 }
+#regcon button{
+    all: unset;   
+}
+#faq{
+    text-align: center;
+    font-size: 50px;
+}
+#first{
+    display:flex;
+
+}
+#second{
+    display:flex;
+}
+#first div p, #second div p{
+    padding-left:400px;
+    color:#979797;
+    padding-right:200px;
+}
+#first div h3, #second div h3{
+    padding-left:400px;
+}
+footer{
+    background-color: #071629;
+    color:white;
+    display: flex;
+    
+    justify-content: space-between;
+}
+footer section div{
+    list-style:none;
+    display: inline-block;
+    padding-right:1300px;
+    padding-left:50px;
+    padding-top:20px;
+    display:flex;
+}
+footer section p{
+    padding-left:890px;
+}
+#socials{
+    gap:20px;
+}
+
