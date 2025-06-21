@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones - Hear the Difference</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/png">
+    <!-- Tailwind CSS CDN -->
+    <link href="0-styles.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white">
+
+    <!-- Header Section -->
+    <header class="absolute top-0 left-0 right-0 z-20 p-4 md:p-8 flex justify-between items-center bg-transparent">
+        <div class="flex items-center">
+            <!-- Logo -->
+            <img src="logo_headphones.png" alt="Headphones Logo" class="h-8 md:h-10 w-auto mr-2">
+        </div>
+        <!-- Navigation - hidden on small screens, shown as menu icon -->
+        <nav class="hidden md:flex space-x-6 text-white text-lg">
+            <a href="#what-we-do" class="hover:text-red-500 transition duration-300">What we do</a>
+            <a href="#our-results" class="hover:text-red-500 transition duration-300">Our results</a>
+            <a href="#contact-us" class="hover:text-red-500 transition duration-300">Contact us</a>
+        </nav>
+        <!-- Mobile Menu Icon (Hamburger) -->
+        <div class="md:hidden">
+            <button class="text-white text-3xl focus:outline-none">
+                &#9776; <!-- Hamburger icon -->
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section min-h-screen">
+        <div class="hero-content">
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-4 leading-tight">Lorem ipsum dolor sit amet lorem ipsum</h1>
+            <p class="text-lg md:text-xl mb-8 opacity-90">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button class="btn-primary">Call to Action</button>
+        </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section id="what-we-do" class="py-16 md:py-24 text-center bg-white text-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold mb-12">What we do...</h2>
+            <p class="max-w-3xl mx-auto text-lg mb-16 opacity-90">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 what-we-do-grid">
+                <!-- Icon 1: Music waves -->
+                <div class="flex flex-col items-center">
+                    <svg class="w-16 h-16 text-red-500 mb-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2">Lorem ipsum</h3>
+                    <p class="opacity-80">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <!-- Icon 2: Movie clapboard -->
+                <div class="flex flex-col items-center">
+                    <svg class="w-16 h-16 text-red-500 mb-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M18 3v2h-2V3H8v2H6V3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-3zm-2 16H8v-2h8v2zm3-4H5V8h14v7z"/>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2">Lorem ipsum</h3>
+                    <p class="opacity-80">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <!-- Icon 3: Musical note -->
+                <div class="flex flex-col items-center">
+                    <svg class="w-16 h-16 text-red-500 mb-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2">Lorem ipsum</h3>
+                    <p class="opacity-80">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <!-- Icon 4: Heartbeat/ECG -->
+                <div class="flex flex-col items-center">
+                    <svg class="w-16 h-16 text-red-500 mb-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M13 18v-3h-2v3h-3v-5h2V9h-2V4h3V1h2v3h3v5h-2v3h2v5h-3z"/>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2">Lorem ipsum</h3>
+                    <p class="opacity-80">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Results Section -->
+    <section id="our-results" class="results-section py-16 md:py-24 text-center">
+        <div class="container mx-auto px-4 results-content">
+            <h2 class="text-4xl md:text-5xl font-bold mb-12">Our results speak for themselves</h2>
+            <p class="max-w-3xl mx-auto text-lg mb-16 opacity-90">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Result 1 -->
+                <div class="flex flex-col items-center">
+                    <div class="pentagon">
+                        <span class="text-3xl">+2%</span>
+                    </div>
+                    <p class="mt-4 text-xl font-semibold">Lorem ipsum</p>
+                </div>
+                <!-- Result 2 -->
+                <div class="flex flex-col items-center">
+                    <div class="pentagon">
+                        <span class="text-3xl">+2%</span>
+                    </div>
+                    <p class="mt-4 text-xl font-semibold">Lorem ipsum</p>
+                </div>
+                <!-- Result 3 -->
+                <div class="flex flex-col items-center">
+                    <div class="pentagon">
+                        <span class="text-3xl">+2%</span>
+                    </div>
+                    <p class="mt-4 text-xl font-semibold">Lorem ipsum</p>
+                </div>
+                <!-- Result 4 -->
+                <div class="flex flex-col items-center">
+                    <div class="pentagon">
+                        <span class="text-3xl">+2%</span>
+                    </div>
+                    <p class="mt-4 text-xl font-semibold">Lorem ipsum</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-us" class="py-16 md:py-24 text-center bg-white text-gray-800">
+        <div class="container mx-auto px-4 max-w-lg">
+            <h2 class="text-4xl md:text-5xl font-bold mb-12">Contact Us</h2>
+            <form class="space-y-6">
+                <div>
+                    <input type="text" placeholder="Name" class="input-field" aria-label="Your Name">
+                </div>
+                <div>
+                    <input type="email" placeholder="Email" class="input-field" aria-label="Your Email">
+                </div>
+                <div>
+                    <textarea placeholder="Your Message" class="input-field resize-none h-32" aria-label="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn-primary w-full mt-8">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="text-center">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <!-- Logo -->
+            <img src="logo_headphones.png" alt="Headphones Logo" class="h-8 md:h-10 w-auto mb-4 md:mb-0">
+            <!-- Social Icons (Placeholder) -->
+            <div class="flex space-x-4">
+                <a href="#" class="text-white hover:text-red-500 transition duration-300" aria-label="Facebook">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.77c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.262c-1.225 0-1.644.755-1.644 1.528V12h2.773l-.443 2.89h-2.33V22C18.343 21.128 22 16.991 22 12c0-5.523-4.477-10-10-10z"/>
+                    </svg>
+                </a>
+                <a href="#" class="text-white hover:text-red-500 transition duration-300" aria-label="Twitter">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M22.46 6c-.84.37-1.74.62-2.67.73.96-.58 1.7-1.5 2.05-2.52-.9.53-1.9.92-2.93 1.13-.85-.9-2.06-1.46-3.39-1.46-2.57 0-4.66 2.09-4.66 4.66 0 .36.04.7.11 1.03-3.88-.19-7.31-2.05-9.61-4.87-.4 1-.63 2.05-.63 3.2 0 1.61.82 3.03 2.06 3.86-.76-.02-1.48-.23-2.11-.58v.06c0 2.27 1.61 4.16 3.74 4.59-.39.1-.8.15-1.22.15-.3 0-.59-.03-.87-.08.59 1.85 2.31 3.2 4.35 3.23-1.6 1.25-3.62 1.99-5.83 1.99-.38 0-.76-.02-1.13-.07 2.07 1.32 4.54 2.09 7.18 2.09 8.61 0 13.34-7.12 13.34-13.34 0-.2-.01-.4-.02-.6.92-.66 1.7-1.48 2.32-2.42z"/>
+                    </svg>
+                </a>
+                <a href="#" class="text-white hover:text-red-500 transition duration-300" aria-label="Instagram">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M7.8 2c-2.42 0-4.42 1.98-4.42 4.42v9.16c0 2.42 1.98 4.42 4.42 4.42h8.4c2.42 0 4.42-1.98 4.42-4.42V6.42c0-2.42-1.98-4.42-4.42-4.42H7.8zm0 1.5h8.4c1.6 0 2.92 1.32 2.92 2.92v9.16c0 1.6-1.32 2.92-2.92 2.92H7.8c-1.6 0-2.92-1.32-2.92-2.92V6.42c0-1.6 1.32-2.92 2.92-2.92zM12 7.78c-2.3 0-4.18 1.88-4.18 4.18s1.88 4.18 4.18 4.18 4.18-1.88 4.18-4.18-1.88-4.18-4.18-4.18zm0 1.5c1.5 0 2.68 1.18 2.68 2.68s-1.18 2.68-2.68 2.68-2.68-1.18-2.68-2.68 1.18-2.68 2.68-2.68zm5.22-4.22a1.28 1.28 0 100 2.56 1.28 1.28 0 000-2.56z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
