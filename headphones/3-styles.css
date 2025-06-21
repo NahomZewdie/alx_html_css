@@ -1,0 +1,46 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0;
+}
+
+.contact h1 {
+    font-size: 32px;
+    color: var(--primary-text-color);
+}
+
+#name {
+    border: none;
+    border-bottom: 1px solid var(--contact);
+    font-size: 16px;
+    padding: 5px 50px 5px 15px;
+    margin: 20px 0;
+}
+
+#email {
+    border: none;
+    border-bottom: 1px solid var(--contact);
+    font-size: 16px;
+    padding: 5px 50px 5px 15px;
+    margin: 20px 0;
+}
+
+#message {
+    border: none;
+    border-bottom: 1px solid var(--contact);
+    font-size: 16px;
+    padding: 5px 50px 5px 15px;
+    margin: 20px 0;
+}
+
+input::placeholder {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#name:focus {
+    border: none;
+}

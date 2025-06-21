@@ -1,0 +1,95 @@
+/* WHAT WE DO SECTION OF THE WEBSITE */
+
+.what-we-do {
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+.textarea-wwd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textarea-wwd h1{
+    font-size: 32px;
+    color: var(--primary-text-color);
+}
+
+.textarea-wwd blockquote {
+    color: var(--primary-text-color);
+    margin: 40px 0;
+}
+
+.media-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.down{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.frequency, .media, .audio, .hear {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+    width: 200px;
+}
+
+.media-area h4{
+    margin: 10px 0;
+    color: var(--primary-text-color);
+}
+
+.media-area img {
+    width: 20%;
+}
+
+.media-area p {
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+/* MEDIA QUERIES FOR THE WHAT WE DO SECTION */
+/* max-width 768 */
+@media (max-width: 768px) {
+
+    .textarea-wwd{
+        width: 502px;
+        margin: 0 auto;
+    }
+
+    .media-area {
+        flex-direction: column;
+    }   
+}
+
+
+@media (max-width: 480px) {
+
+    .textarea-wwd {
+        width: 325px;
+    }
+
+    .media-area {
+        flex-direction: column;
+    }
+
+    .top, .down {
+        flex-direction: column;
+    }
+}

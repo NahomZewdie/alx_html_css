@@ -1,0 +1,50 @@
+.foot {
+    background-color: var(--primary-text-color);
+}
+
+.logicons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.logicons img {
+    width: 200px;
+}
+
+.fa-brands {
+    font-size: 25px;
+    color: var(--white);
+    margin: 0 10px;
+}
+
+.fa-brands:hover {
+    cursor: pointer;
+    transition: all .4s ease;
+    color: var(--primary-color);
+    opacity: 0.9;
+}
+
+.fa-brands:active {
+    color: var(--white);
+}
+
+.foot p{
+    text-align: center;
+    color: var(--white);
+    padding-bottom: 30px;
+}
+
+
+@media (max-width: 480px) {
+    .logicons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fa-brands {
+        margin: 70px 10px 0 10px;
+    }
+}

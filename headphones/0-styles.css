@@ -1,0 +1,200 @@
+:root {
+    --white: #ffffff;
+    --primary-color: #FF6565;
+    --primary-text-color: #071629;
+    --shadow: #07162989;
+    --contact: #979797;
+    --font-16: 16px;
+    --font-32: 32px;
+    --font-64: 64px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'source sans 3';
+    scroll-behavior: smooth;
+}
+
+button {
+    color: var(--white);
+    background-color: var(--primary-color);
+    font-size: var(--font-16);
+    font-weight: 400;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    margin: 30px;
+}
+
+button:hover {
+    opacity: 0.9;    
+}
+
+button:active {
+    color: var(--white);
+    background-color: var(--primary-color);
+    opacity: 1;
+}
+
+/* HEAD AND NAV LINKS SECTION OF THE WEBSITE */
+
+.hero-section {
+    background-image: url("./assets/headphones_hero_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: var(--white);
+}
+
+.navbar img {
+    width: 200px;
+}
+
+.navbar input {
+    display: none;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-links a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: var(--font-16);
+}
+
+.navbar .nav-links a:hover {
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+
+.navbar .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: var(--white);
+    margin: 4px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.sec {
+    width: 15px !important;
+}
+
+.navbar .mobile-nav {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.navbar .mobile-nav a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+}
+/* TEXT AREA OF THE HERO SECTION */
+
+.md-txt-hsectn {
+    margin-top: 300px;
+    text-align: center;
+    max-width: 1000px auto;
+}
+
+.md-txt-hsectn h1{
+    font-size: 32px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.md-txt-hsectn p {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.md-txt-hsectn button {
+    box-shadow: 0.1px 0 10px var(--shadow);
+}
+
+blockquote {
+    max-width: 637px;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--white);
+    font-size: 16px;
+}
+
+
+/* MEDIA QUERIES FOR THE HERO SECTION */
+/* max-width 480px */
+@media (max-width: 480px) {
+
+    .navbar .logo {
+        order: 2;
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    .navbar .nav-links {
+        display: none;
+    }
+
+    .navbar .hamburger {
+        display: flex;
+        order: 1;
+    }
+
+    .navbar input[type="checkbox"] {
+        display: none;
+    }
+
+    .navbar input[type="checkbox"]:checked ~ .mobile-nav {
+        display: flex;
+    }
+
+    .navbar input[type="checkbox"]:checked ~ .hamburger div:nth-child(1) {
+        transform: rotate(45deg) translate(10px, 5px);
+    }
+
+    .navbar input[type="checkbox"]:checked ~ .hamburger div:nth-child(2) {
+        opacity: 0;
+    }
+
+    .navbar input[type="checkbox"]:checked ~ .hamburger div:nth-child(3) {
+        transform: rotate(-45deg) translate(10px, -5px);
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .md-txt-hsectn {
+        margin-top: 200px;
+        padding: 0 20px;
+        text-align: center;
+    }
+}
